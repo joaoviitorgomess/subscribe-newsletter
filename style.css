@@ -125,3 +125,7 @@ justify-content: center;
 background: #e51e2a;
 transform: translateY(-10px);
 }
+.icons li a img{
+transform: scale(0.5);
+filter: invert();
+}
