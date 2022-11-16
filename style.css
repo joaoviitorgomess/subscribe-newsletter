@@ -55,7 +55,7 @@ font-weight: 500;
 font size: 25px;
 margin-left: 70px;
 border-radius: 40px;
-background: #e51e2a;
+
 margin-top: 5px;
 padding: 5px 7px;
 transition: 0.3s ease-in-out;
@@ -135,4 +135,29 @@ transform: translateY(-10px);
 .icons li a img{
 transform: scale(0.5);
 filter: invert();
+}
+.boximg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.boximg img{
+width: 160px;
+}
+.boximg .img1{
+transform: rotate(-15deg);
+}
+.boximg .img2{
+transform: rotate(-10deg);
+}
+.boximg .img3{
+transform: rotate(-350deg);
+}
+.boximg .img4{
+transform: rotate(-15deg);
+}
+.boxnoel{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
